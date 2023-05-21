@@ -23,9 +23,9 @@ logging.basicConfig(
 load_dotenv(find_dotenv())
 
 # Set Slack API credentials
-SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
-SLACK_SIGNING_SECRET = os.environ["SLACK_SIGNING_SECRET"]
-SLACK_BOT_USER_ID = os.environ["SLACK_BOT_USER_ID"]
+SLACK_BOT_TOKEN = "xoxb-5283385108823-5283389849159-XAxjRCUzbw3gkWPE9XAkvTvX"
+SLACK_SIGNING_SECRET = "d83cf38da162327789ee92c43255c02e"
+SLACK_BOT_USER_ID = "U058BBFQZ4P"
 
 # Initialize the Slack app
 app = App(token=SLACK_BOT_TOKEN)
